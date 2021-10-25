@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import Header from './header/Header'
-import About from './about/About'
+import App from './App'
+
 
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <About />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

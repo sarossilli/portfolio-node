@@ -4,7 +4,7 @@ import './About.css';
 
 function About() {
     return (
-        <div className="About" class="card-body d-flex flex-column align-items-start" style={{width:'60%'}}>
+        <div className="About" fluid="md" class="card-body d-flex flex-column align-items-start" style={{width:'60%'}}>
             <Card>
                 <Card.Body class="card-body d-flex flex-column align-items-start">
                     <Card.Text>
