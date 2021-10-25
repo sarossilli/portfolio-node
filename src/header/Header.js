@@ -2,6 +2,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../logo.svg'
+
+
 function Header() {
   return (
     <div className="Header">
@@ -14,7 +16,8 @@ function Header() {
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{' '}
+            />
+            {' '}
             Sam Rossilli
           </Navbar.Brand>
           <Nav className="me-auto">

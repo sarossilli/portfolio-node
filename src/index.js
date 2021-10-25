@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import Header from './header/Header'
-import reportWebVitals from './reportWebVitals';
+import About from './about/About'
 
+import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <App />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
