@@ -1,13 +1,25 @@
 
-
+import React from "react";
+import Project from "../project/Project"
+import { Container, Row, Col } from "react-bootstrap";
+import './Home.css'
 
 function Home() {
-  return (
-    <div className="Header">
-        <h1>Hello Content</h1>
-        <p>This is where my content will go. Not built yet.</p>
-    </div>
-  );
+    return (
+        <Container className="mb-4 projects index">
+            <Row>
+                <Col className="col-lg-6 col-lg-4">
+                    <Project title="This is workindfasdfg." text="dafsdf">
+
+                    </Project>
+                </Col>
+            </Row>
+
+
+        </Container >
+
+
+    );
 }
 
 export default Home;
