@@ -24,8 +24,8 @@ function Header() {
               Sam Rossilli
             </Navbar.Brand>
             <Nav className="me-auto">
-              <NavLink to="/" className='fontHeader' style={{opactiy:'100%'}}> Home </NavLink>
-              <NavLink to="/about" className='fontHeader' style={{opactiy:'100%'}}>About</NavLink>
+              <NavLink to="/" className='fontHeader'> Home </NavLink>
+              <NavLink to="/about" className='fontHeader'>About</NavLink>
             </Nav>
           
         </Container>

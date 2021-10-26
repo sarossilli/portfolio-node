@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+Card{
+  -moz-box-shadow:    2px 2px 2px 2px rgb(153, 153, 153);
+  -webkit-box-shadow: 2px 2px 2px 2px rgb(153, 153, 153);
+  box-shadow:         2px 2px 2px 2px rgb(153, 153, 153);
+}
+.navbar{
+  box-shadow: 0 8px 6px -6px #999;
+}

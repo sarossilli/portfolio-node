@@ -1,5 +1,5 @@
-a.fontHeader, a.fontHeader.active, .fontHeader{
-    opacity: 100;
+.fontHeader{
+    opacity: 80%;
     display: block;
     padding: 8px;
     text-decoration: none;
@@ -14,4 +14,9 @@ a.fontHeader, a.fontHeader.active, .fontHeader{
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.fontHeader:hover, a:hover{
+  color:white;
+  opacity: 100%;
 }

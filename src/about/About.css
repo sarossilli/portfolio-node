@@ -1,6 +1,18 @@
-.About {
-    text-align: center;
-    width: 80%;
-  }
+.card{
+width: 80%;
+padding: .6rem;
+margin: 1rem;
+}
+img.me{
+  position: relative;
+  vertical-align: middle;
+  -moz-box-shadow:    2px 2px 2px 2px rgb(153, 153, 153);
+  -webkit-box-shadow: 2px 2px 2px 2px rgb(153, 153, 153);
+  box-shadow:         2px 2px 2px 2px rgb(153, 153, 153);
+}
 
-  
+
+.fa {
+  font-size: 2rem; 
+  padding: 1rem;
+}

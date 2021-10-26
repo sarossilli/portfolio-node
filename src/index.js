@@ -4,10 +4,10 @@ import './index.css';
 //import App from './App';
 import Header from './header/Header'
 import App from './App'
-import firebase from './utils/firebase';
 
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <Header />
