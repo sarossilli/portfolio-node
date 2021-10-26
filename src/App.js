@@ -2,7 +2,9 @@ import './App.css';
 
 import {
   Route,
-  HashRouter
+  HashRouter,
+  Switch,
+  BrowserRouter as Router
 } from "react-router-dom";
 
 
@@ -13,13 +15,14 @@ import About from "./about/About";
 
 function App() {
   return (
-
-    <HashRouter>
-          <div className="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-          </div>
-      </HashRouter>
+    <HashRouter basename="">
+      <Switch>
+        <div className="content">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </div>
+      </Switch>
+    </HashRouter>
   );
 }
 

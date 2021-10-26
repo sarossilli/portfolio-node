@@ -1,10 +1,9 @@
-.fontHeader,.fontHeader:visited {
-    opacity: 100%;
+a.fontHeader, a.fontHeader.active, .fontHeader{
+    opacity: 100;
     display: block;
     padding: 8px;
     text-decoration: none;
     font-size: large;
-    color: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,9 +13,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   color: white;
-}
-.fontHeader:active, .active{
-  opacity: 100%;
 }

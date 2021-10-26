@@ -16,13 +16,17 @@ function About() {
                             <br/>
                             <br/>
                             I'm an early-career systems engineer and data analyst who is obsessed with improving systems with the help of data.
-
+                            <br/>
+                            <br/>
                             I'm currently studying at the University of Colorado: Colorado Springs for a B.S in Data Analytics and Systems Engineering. I will be joining Amazon as a Software Development Engineer after graduation in June 2022!
-
+                            <br/>
+                            <br/>
                             My education and experience is in model-based systems engineering, software engineering, and data analytics. I have experience with Python, C/C++, Java, and Matlab and with concepts such as Object-oriented programing, the systems engineering life cycle, and the software engineering life cycle.
-
+                            <br/>
+                            <br/>
                             This past summer, I was an intern at USCellular, where I improved my Python skills and expanded my knowledge of real-time networks. I was an intern for the Voice Services group, where I developed a tool to monitor the status of components in the IMS Network.
-
+                            <br/>
+                            <br/>
                             I am open to learning more about positions related to Systems Engineering, Data Analytics, Software Development, or related engineering field.
 
                         </p>
