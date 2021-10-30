@@ -1,25 +1,39 @@
-
-import React from "react";
+import React,{useState,useEffect} from "react";
 import Project from "../project/Project"
-import { Container, Row, Col } from "react-bootstrap";
 import './Home.css'
+import db from '../utils/firebase'
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 function Home() {
+    const [posts,setPosts]=useState([])
+
+    const fetchPosts=async()=>{
+        const data = await getDocs(collection(db, "posts"));
+      data.docs.forEach(item=>{
+        console.log(item);
+        setPosts([item.data()])
+      })
+    }
+
+    useEffect(() => {
+        fetchPosts();
+    }, [])
+
     return (
-        <Container className="mb-4 projects index">
-            <Row>
-                <Col className="col-lg-6 col-lg-4">
-                    <Project title="This is workindfasdfg." text="dafsdf">
-
+        <div className="App">
+          {
+            posts && posts.map(post=>{
+              return(
+                <div className="post-container">
+                    <Project post={post}>
+                      
                     </Project>
-                </Col>
-            </Row>
-
-
-        </Container >
-
-
-    );
+                </div>
+              )
+            })
+          }
+        </div>
+      );
 }
 
 export default Home;
