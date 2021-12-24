@@ -10,7 +10,7 @@ function Project({ post }) {
         <div>
             <Card className="card mt-4 shadow bg-white rounded">
                 <h1>{post.Title}</h1>
-                <img className="img-fluid rounded p-1" src={post.img} width='500' height='700' />
+                <img className="img-fluid rounded p-1" src={post.img}/>
                 <p>{post.Text}</p>
             </Card>
         </div>
